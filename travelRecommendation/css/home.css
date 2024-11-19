@@ -1,17 +1,46 @@
-.main-content h1 {
-    margin: 90px 20px 30px 20px;
+.main-content {
+    display: flex;
+    justify-content: space-between;
+}
+.left-content {
+    width: 50vw;
+}
+.left-content h1 {
+    margin: 60px 20px 30px 20px;
     font-size: 70px;
     width: 400px;
 }
-.main-content p {
+.left-content p {
     margin: 40px 20px 60px 20px;
     font-size: 22px;
     width: 350px;
 }
-.main-content .btnBookNow {
+.left-content .btnBookNow {
     display: inline;
     border-radius: 10px;
     margin: 20px;
     padding: 10px 25px;
+    background-color: #1db0b8;
+}
+.right-content {
+    margin: 30px 70px 20px 0; 
+    width: 500px;
+}
+.item {
+    display: flex;
+    flex-direction: column;
+}
+.detail {
+    background-color: white;
+    width: 100%;
+}
+.btnVisit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 5px;
     background-color: #1db0b8;
 }
