@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>TravelTam</title>
+        <link rel="stylesheet" href="./css/global.css">
+        <link rel="stylesheet" href="./css/contractUs.css">
+    </head>
+    <body>
+        <nav class="horizontal-nav">
+            <div class="nav-start">
+                <img src="./svg/Airplane.svg" width="70px" height="70px"  alt="place icon"></img>
+                <p>TravelTam</p>
+            </div>
+            <div class="nav-middle">
+                <a href="./travel_recommendation.html">Home</a>
+                <a href="./aboutUs.html">About Us</a>
+                <a href="./contractUs.html">Contract Us</a>
+            </div>
+            <div class="nav-end">
+                <input id="keyword" type="text"  maxlength="20" placeholder="Enter a destination or keyword">
+                <img src="./svg/magnifying-glass-svgrepo-com.svg" width="20px" height="20px" alt="magnifying glass icon">
+                <div id="btnSearch" class="btnSearch">Search</div>
+                <div id="btnClear" class="btnClear">Clear</div>
+            </div>
+        </nav>
+        <nav class="vertical-nav">
+            <img src="./svg/vertical-line.svg" alt="vertical-line" width="20px" height="350px"></img>
+            <div class="icon">
+                <a href="#"><img src="./svg/twitter-icon.svg" style="fill: white;" alt="twitter-icon"></a>
+                <a href="#"><img src="./svg/facebook-icon.svg" alt="facebook-icon"></a>
+                <a href="#"><img src="./svg/instagram-icon.svg" alt="instagram-icon"></a>
+                <a href="#"><img src="./svg/youtube-icon.svg" alt="youtube-icon"></a>
+            </div>
+        </nav>
+        <div class="main-content">
+            <div class="contract-us">
+                CONTRACT US
+            </div>
+            <div class="flyer">
+                <label for="name">Name</label>
+                <textarea row="1" cols="20" type="text" id="name" name="name" placeholder="Enter your name here..."></textarea>
+                <label for="email">Email</label>
+                <textarea row="1" cols="20" id="email" name="email" placeholder="Enter your email here..."></textarea>
+                <label for="message">Massage</label>
+                <textarea rows="5" cols="40" id="message" name="message" placeholder="Enter your text here..."></textarea>
+                <div class="btnSubmit">Submit</div>
+            </div>
+        </div>
+    </body>
+</html>

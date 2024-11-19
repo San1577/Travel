@@ -1,0 +1,52 @@
+.nav-end {
+    visibility: hidden;
+}
+.main-content {
+    display:flex;
+
+}
+.contract-us {
+    margin: 250px 0px 0 70px;
+    font-weight: 900;
+    font-size: 65px;
+}
+.flyer {
+    display: flex;
+    flex-direction: column;
+    margin: 200px 0px 0 70px;
+    background-color: rgba(222, 184, 135, 0.44);
+    width: 50vw;
+    height: 50vh;
+    padding: 0 0 20px 0;
+}
+.flyer label {
+    margin: 10px 15px 0;
+}
+.flyer textarea {
+    display: block;
+    margin: 5px 15px;
+    border-radius: 5px;
+    width: 95%;
+    height: 25px;
+    padding-left: 10px;
+    padding-top: 5px;
+    resize: none;
+}
+
+#message {
+    height: 35%;
+    padding-left: 10px;
+}
+.btnSubmit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+    background-color: rgba(216, 150, 64, 0.885);
+    margin: 15px 15px 0px 15px;
+    padding: 5px;
+    border-radius: 10px;
+}
+.btnSubmit:hover {
+    background-color: rgba(161, 112, 48, 0.885);
+}

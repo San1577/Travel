@@ -1,0 +1,17 @@
+.main-content h1 {
+    margin: 90px 20px 30px 20px;
+    font-size: 70px;
+    width: 400px;
+}
+.main-content p {
+    margin: 40px 20px 60px 20px;
+    font-size: 22px;
+    width: 350px;
+}
+.main-content .btnBookNow {
+    display: inline;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px 25px;
+    background-color: #1db0b8;
+}

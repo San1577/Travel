@@ -1,0 +1,55 @@
+.nav-end {
+    visibility: hidden;
+}
+.about-us h1 {
+    margin: 90px 20px 20px 20px;
+    font-size: 70px;
+}
+
+.information {
+    margin: 20px;
+    width: 80vw;
+    background-color: rgba(222, 184, 135, 0.44);
+    padding: 20px;
+}
+
+.our-team {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 60px 20px 20px 80px;
+    width: 78vw;
+}
+.our-team h1{
+    font-size: 70px;
+    width: 150px;
+    margin: 10px;
+}
+
+.staffs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.member {
+    background-color: rgba(222, 184, 135, 0.44);
+    display:flex;
+    width: 220px;
+    height: 120px;
+    margin: 20px 10px 10px 10px;
+    padding: 15px;
+}
+.member img {
+    position: relative;
+    top:-10px;
+}
+.role {
+    display: flex;
+    border-radius: 10px;
+    margin: 10px 0;
+    padding: 5px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(216, 150, 64, 0.885);
+}
