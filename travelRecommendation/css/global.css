@@ -48,6 +48,7 @@ body {
 
 .nav-end {
     position: relative;
+    margin-right: 15px;
 }
 .nav-end input {
     height: 40px;
@@ -71,6 +72,7 @@ body {
 }
 .btnSearch:hover {
     background-color: #27278e;
+    cursor: pointer;
 }
 .btnClear {
     position: absolute;
@@ -79,9 +81,11 @@ body {
     color: white;
     padding: 5px 10px;
     border-radius: 10px;
+    
 }
 .btnClear:hover {
     background-color: #27278e;
+    cursor: pointer;
 }
 
 .vertical-nav {
