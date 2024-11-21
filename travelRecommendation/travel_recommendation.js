@@ -20,7 +20,7 @@ function search() {
                                   </div>`;
                     document.getElementById('right-content').appendChild(node);
                 }
-            } else if (condition == 10) {
+            } else if (condition == 11) {
                 document.getElementById('right-content').innerHTML = '';
                 for (let i = 0; i < 2; i++) {
                     const node = document.createElement("div");
@@ -33,7 +33,7 @@ function search() {
                                   </div>`;
                     document.getElementById('right-content').appendChild(node);
                 }
-            } else if (condition == 18) {
+            } else if (condition == 19) {
                 document.getElementById('right-content').innerHTML = '';
                 for (let i = 0; i < 2; i++) {
                     const node = document.createElement("div");
